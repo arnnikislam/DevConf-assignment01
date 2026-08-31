@@ -1,6 +1,6 @@
 # DevConf 2026
 
-A responsive static landing page for a fictional three-day developer conference. The site presents the event message, featured speakers, and ticket tiers in a clear, polished single-page experience.
+A non-responsive static landing page for a fictional three-day developer conference. The site presents the event message, featured speakers, and ticket tiers in a clear, polished single-page experience.
 
 **Live site:** [arnnikislam.github.io/DevConf-assignment01](https://arnnikislam.github.io/DevConf-assignment01/)
 
@@ -10,7 +10,7 @@ A responsive static landing page for a fictional three-day developer conference.
 - Featured speaker cards for AI/ML, cloud and DevOps, frontend, and security
 - Standard, Pro, and Team pricing options
 - Responsive layout for desktop, tablet, and mobile displays
-- Semantic HTML, descriptive alternative text, keyboard-visible focus states, and reduced-motion support
+- Semantic HTML, descriptive alternative text
 
 ## Built with
 
