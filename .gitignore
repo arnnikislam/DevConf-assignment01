@@ -1,0 +1,13 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local dependency and build directories
+node_modules/
+dist/
+build/
+
+# Logs
+*.log

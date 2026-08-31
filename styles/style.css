@@ -186,7 +186,7 @@
 .item-price {
   font-size: 3rem;
   font-weight: bold;
-  columns: var(--primary-color);
+  color: var(--primary-color);
 }
 .item-sharing {
   font-size: 0.8rem;
