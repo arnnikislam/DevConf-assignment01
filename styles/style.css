@@ -2,6 +2,8 @@
 :root {
   --primary-color: #0d1b2a;
   --secondary-color: #575757;
+  --ash-color: #888888;
+  --li-color: #333333;
   --blue-txt: #2563eb;
   --btn-bg: #1d4ed8;
 }
@@ -89,6 +91,9 @@
   margin-top: 1rem;
   font-size: 1.4rem;
 }
+.hero-content em {
+  font-style: italic;
+}
 
 /* speaker section */
 .speaker {
@@ -133,4 +138,90 @@
 .speaker-position {
   font-size: 0.8rem;
   color: var(--secondary-color);
+}
+
+/* pricing section */
+.pricing {
+  margin: 3rem 8.75rem;
+}
+.pricing-header {
+  text-align: center;
+}
+.pricing-header h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.pricing-header p {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-top: 1rem;
+}
+.pricing-card-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* pricing individual card style */
+.pricing-card {
+  max-width: 370px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.item-tag {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--ash-color);
+  text-transform: uppercase;
+}
+.item-price {
+  font-size: 3rem;
+  font-weight: bold;
+  columns: var(--primary-color);
+}
+.item-sharing {
+  font-size: 0.8rem;
+  color: var(--ash-color);
+}
+.pricing-card hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid var(--ash-color);
+}
+.card-item-list {
+  padding-left: 0.85rem;
+}
+.card-item-list li {
+  font-size: 0.8rem;
+  color: var(--li-color);
+  margin-bottom: 1rem;
+}
+.card-item-list li::marker {
+  color: var(--blue-txt);
+}
+.standard-btn {
+  width: 100%;
+  background-color: white;
+  color: var(--blue-txt);
+  border: 1px solid var(--blue-txt);
+}
+.pro-btn {
+  width: 100%;
+}
+.team-btn {
+  width: 100%;
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+/* pro card extra design */
+.pro-card {
+  background-color: var(--primary-color);
+  color: white;
+}
+.pro-card li {
+  color: var(--ash-color);
 }
