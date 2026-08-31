@@ -39,12 +39,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav-links {
+.nav-links,
+.footer ul {
   list-style-type: none;
   display: flex;
   gap: 1.5rem;
 }
-.nav-links a {
+.nav-links a,
+.footer a {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 1rem;
@@ -99,6 +101,10 @@
 .speaker {
   margin: 3rem 7rem;
 }
+.speaker-center {
+  display: flex;
+  justify-content: center;
+}
 .speaker h1 {
   text-align: center;
   color: var(--primary-color);
@@ -109,8 +115,8 @@
 .speaker-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
   gap: 2rem;
+  /* margin: 0 auto; */
 }
 .speaker-card {
   max-width: 624px;
@@ -224,4 +230,17 @@
 }
 .pro-card li {
   color: var(--ash-color);
+}
+
+/* footer */
+.footer {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding-inline: 7.2rem;
+}
+.footer p {
+  color: var(--secondary-color);
 }
